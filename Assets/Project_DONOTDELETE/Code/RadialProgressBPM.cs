@@ -144,7 +144,7 @@ public class RadialProgressBPM : MonoBehaviour
             if (dashedCircleRed2 != null) dashedCircleRed2.SetActive(true);
         }
 
-        // 🔁 Green zone audio loop
+        // Green zone audio loop
         bool currentlyGreen = effectiveProgress >= 0.75f;
         bool currentlyRed = superCounter > 121f || bpm < 100f;
 
